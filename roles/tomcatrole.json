@@ -1,0 +1,15 @@
+{
+  "name": "tomcatrole",
+  "default_attributes": {
+    "tomcat": {
+      "server": {
+        "tomcat-port": "8181"
+      }
+    }
+  },
+  "run_list": [
+    "role[base]",
+    "recipe[tomcat::default]",
+    "recipe[tomcat::tomcat-users]"
+  ]
+}

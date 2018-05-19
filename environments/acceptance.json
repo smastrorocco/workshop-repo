@@ -1,0 +1,13 @@
+{
+  "name": "acceptance",
+  "override_attributes": {
+    "tomcat": {
+      "server": {
+        "tomcat-port": "8282"
+      }
+    }
+  },
+  "cookbook_versions": {
+    "tomcat": "= 1.2.0"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "base",
+  "run_list": [
+    "recipe[my_chef_client::default]",
+    "recipe[users::default]"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "production",
+  "default_attributes": {
+    "chef_client": {
+      "interval": "300"
+    }
+  },
+  "cookbook_versions": {
+    "tomcat": "= 1.0.0"
+  }
+}
